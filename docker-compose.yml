@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  kek:
+    build: .
+    image: sscitest
+    container_name: sscitest
