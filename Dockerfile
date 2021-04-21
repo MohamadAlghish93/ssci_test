@@ -1,5 +1,5 @@
 FROM alpine:latest
 
-RUN echo C > a.txt
+RUN echo CC > a.txt
 
 CMD cat a.txt
